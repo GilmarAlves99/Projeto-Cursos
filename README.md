@@ -1,10 +1,10 @@
 <h2> Oque você verá aqui? </h2>
 
-• Aqui temos uma página inicial comum , e nela alguns campos a ser preenchido !!
-• Ao preencher todos os campos e cadastrar, todo conteúdo respondido será cadastrado no banco de dados
-• Conteúdo feito na aula de<br>Programacao de Aplicativos Mobile I</b>
-• Ministrado pelo  Professor <b>Luiz Claudio Barreto </b>
-• Crie um arquivo chamado **phonegap** no **phpmyadmin**
+• Aqui temos uma página inicial comum , e nela alguns campos a ser preenchido !!<br>
+• Ao preencher todos os campos e cadastrar, todo conteúdo respondido será cadastrado no banco de dados<br>
+• Conteúdo feito na aula de<br>Programacao de Aplicativos Mobile I</b><br>
+• Ministrado pelo  Professor <b>Luiz Claudio Barreto </b><br>
+• Crie um arquivo chamado **phonegap** no **phpmyadmin**<br>
 
 <h3> Caso queira fazer Download </h3>
 
