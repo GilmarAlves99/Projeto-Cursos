@@ -12,6 +12,7 @@
 
 
 **Comando SQL :**
+<pre>
 <code>
 CREATE DATABASE phonegap;
 use phonegap;
@@ -22,5 +23,5 @@ CREATE TABLE curso(
     preco varchar(200) NOT null
     );
     </code>
-    
+    </pre>
 https://gilmaralves99.github.io/Projeto-Cursos/index.html
