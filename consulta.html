@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/ionic.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de consulta</title>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var url = "http://localhost/curso/consulta.php";
+            $.getJSON(url, function(result) {
+                console.log(result);
+                $.each(result, function(i, field) {
+                    var id = field.id;
+                    var title = field.titulo;
+                    var duration = field.duracao;
+                    var price = field.preco;
+
+                    $("#listview").append("<a class='item' id=" + id + "&title=" + title + "&duration =" + duration + "&price=" + price + "'><span class='item-note'><h2>R$ " + price + "</h2></span>" + title + "<p>" + duration + "</p></a>");
+                });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="bar bar-header bar-positive" style="margin-bottom:80px;background-color:red">
+        <a href="index.html" class="button button-clear">Home</a>
+        <h1 class="title" style="font-size: 20px;">Cunsultas de cursos</h1>
+    </div>
+    <br>
+    <br>
+    <ul class="list" id="listview">
+
+    </ul>
+</body>
+
+</html>
