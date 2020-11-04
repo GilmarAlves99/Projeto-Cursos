@@ -2,7 +2,7 @@
 
 • Aqui temos uma página inicial comum , e nela alguns campos a ser preenchido !!<br>
 • Ao preencher todos os campos e cadastrar, todo conteúdo respondido será cadastrado no banco de dados<br>
-• Conteúdo feito na aula de<br>Programacao de Aplicativos Mobile I</b><br>
+• Conteúdo feito na aula de<b>Programacao de Aplicativos Mobile I</b><br>
 • Ministrado pelo  Professor <b>Luiz Claudio Barreto </b><br>
 • Crie um arquivo chamado **phonegap** no **phpmyadmin**<br>
 
